@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>ل محمود من نونته ♡</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:Tahoma,Arial,sans-serif;background:linear-gradient(145deg,#fff7fa,#f8e4ed 55%,#fff9fb);color:#593847;display:flex;align-items:center;justify-content:center;padding:24px}
+.wrap{width:min(100%,680px);text-align:center}.card{background:#fffffff0;border:1px solid #f1d4df;border-radius:28px;padding:clamp(20px,5vw,38px);box-shadow:0 18px 55px #82415b20}
+.heart{font-size:27px;color:#d66b91}h1{font-size:clamp(27px,6vw,40px);margin:8px 0;color:#a94f74}.sub,.tiny{color:#9b7182}
+img{width:100%;max-height:440px;object-fit:cover;border-radius:20px;border:5px solid white}
+.date{margin:17px 0 8px;color:#b45f80;font-weight:bold}.message{white-space:pre-line;text-align:right;line-height:2.05;font-size:17px;color:#654452;background:#fff8fb;border-radius:18px;padding:22px;margin-top:20px}
+.gate{max-width:420px;margin:auto}.gate p{line-height:1.9;color:#896577}input{width:100%;padding:15px;border:1px solid #e8bfd0;border-radius:14px;font-size:19px;text-align:center}
+button{margin-top:13px;width:100%;border:0;border-radius:14px;padding:15px;background:#c96f91;color:white;font-size:17px;font-weight:bold}#error{min-height:24px;color:#b33d65;margin:10px 0}.hidden{display:none}footer{font-size:13px;color:#ad8293;margin-top:18px}
+</style></head><body><main class="wrap">
+<section class="card gate" id="gate"><div class="heart">♡</div><h1>هاي مودي، وحشتني 💗</h1>
+<p>حبيت أعمل حاجة مختلفة عن طريقة الهابي مسج كل مرة، قولي رأيك…<br>بس أعرف الباسوورد الأول 😉</p>
+<input id="password" inputmode="numeric" placeholder="اكتب كلمة السر"><button id="enter">افتح مفاجأتك ♡</button><div id="error"></div></section>
+<section class="card hidden" id="content"><div class="heart">♡</div><h1>لمحمود، من نونته</h1>
+<p class="sub">من يوم 14 / 4 / 2024… ولسه كل يوم بحبك أكتر</p><img src="photos/our-photo.jpg" alt="صورتنا سوا">
+<div class="date">14 / 4 / 2024</div><p class="tiny">أحلى حكاية بدأت في اليوم ده ♡</p>
+<div class="message">عامل إيه يا حبيبي؟ حبيت أخلي المسج بطريقة كريتيف شوية، قولي إيه رأيك.
+
+عايزة أقولك إني بحبك أوي، وإن معنديش أغلى ولا أحنّ منك على قلبي. كل ذكرى بينا ليها معنى كبير أوي جوايا. بحب قربك، وبحب حتى فكرة إننا بس سوا؛ وجودك بيطمني. مش عايزة غيرك من كل الدنيا.
+
+يمكن الفترة دي حاجات كتير متلخبطة، بس أنا عارفة وواثقة إن كل حاجة خير، وإنها فترة وهتعدي، وكل حاجة هتكون كويسة. الحياة اختبارات، وأنا واثقة إنك قد كل الدنيا. فخورة بحبيبي وبكل حاجة بتعملها، مهما كانت بسيطة.
+
+إنت أغلى من عيني بجد. ربنا يديمك ليا، ويخليك لقلبي، ويشفيك ويهديك ويريّح بالك يا حبيبي. يا رب نونتك تفضل معاك، وبتحبك وفخورة بيك وواثقة فيك. يا حب عمرها، خليك معايا، اتفقنا؟
+
+إنت مصدر قوتي، ومصدر أماني، ومصدر كل الراحة اللي أنا فيها. مجرد اختفائك عندي ساعتين بقلق وأتوتر وأتوه. إنت كل الأمان بالنسبالي.
+
+بتمنى يومك يكون لطيف، وكل أيامك الجاية تكون خير وفرحة لقلبك. بحبك يا مودي 🫂</div>
+<footer>اتفقنا نفضل سوا؟ ♡</footer></section></main>
+<script>
+function daysTogether(){const start=Date.UTC(2024,3,14),n=new Date(),today=Date.UTC(n.getFullYear(),n.getMonth(),n.getDate());return Math.floor((today-start)/86400000)}
+function unlock(){if(document.getElementById('password').value.trim()===String(daysTogether())){document.getElementById('gate').classList.add('hidden');document.getElementById('content').classList.remove('hidden')}else{document.getElementById('error').textContent='مش هي دي يا مودي، جرّب عدد أيام حكايتنا ♡'}}
+document.getElementById('enter').addEventListener('click',unlock);document.getElementById('password').addEventListener('keydown',e=>{if(e.key==='Enter')unlock()});
+</script></body></html>
